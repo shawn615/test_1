@@ -20,7 +20,6 @@ class MLTests(TestCase):
         # self.assertEqual('OK', response['status'])
         # self.assertTrue('label' in response)
         # self.assertEqual('<=50K', response['label'])
-        my_alg.save("E:/test")
         
     def test_registry(self):
         registry = MLRegistry()
